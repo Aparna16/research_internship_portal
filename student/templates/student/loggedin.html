@@ -1,0 +1,17 @@
+{% extends 'home/base.html' %}
+
+{% block title %}Redirecting...{% endblock %}
+
+{% block actives %} active {%endblock %}
+
+{%block meta %}<meta http-equiv="refresh" content="2; url=/student/users/{{username}}" /> {% endblock %}
+{% block activec %}  {%endblock %}
+{% load bootstrap3 %}
+
+{% block body%}
+
+<div id="backgroundImage">
+
+<h2> hi {{ username }} logging in...</h2>
+</div>
+{%endblock%}

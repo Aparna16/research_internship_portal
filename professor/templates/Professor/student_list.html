@@ -1,0 +1,31 @@
+{% extends 'home/Professor_profile.html' %}
+{%  block title %} project List Posted{% endblock %}
+{% block name %}
+{{username}}
+{% endblock %}
+
+{%block main_body%}
+
+<div class="table-responsive listing">
+    <table class="table table-bordered">
+    <tr>
+        <th>Students Applied</th>
+        <th>Give Offer</th>
+    </tr>
+    {% for item in form %}
+    <tr>
+        <td><a href="/student/profile/{{ item }}">{{ item }}</a></td>
+        <td>
+         <form class="form-horizontal " action="/Professor/offered/{{ item }}/" method="get" enctype="multipart/form-data">
+                        <!--this is for security pupose against click jacking -->
+
+                            <div class="">
+                                <button type="submit" class="btn btn-success">Selected</button>
+                        </div>
+                    </form>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+{% endblock %}

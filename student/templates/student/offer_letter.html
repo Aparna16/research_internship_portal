@@ -1,0 +1,27 @@
+{% extends 'home/user_profile.html' %}
+{% block name %}
+{{username}}
+{% endblock %}
+
+{%block main_body%}
+
+<div class="table-responsive listing">
+<h1 class="page-header lead">List Of Applied Internships</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>Username</th>
+        <th>Intern ID</th>
+        <th>Got Offer</th>
+
+    </tr>
+    {% for item in form %}
+    <tr>
+        <td>{{ username}}</td>
+        <td>{{ item.projectid }}</td>
+        <td>{% if item.got_offer == "No" %}No {% else %} <a href="/student/download/">DOL</a> {% endif %}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+</div>
+{% endblock %}

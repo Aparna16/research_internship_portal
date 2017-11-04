@@ -1,0 +1,33 @@
+{% extends 'home/user_profile.html' %}
+{% block name %}
+{{username}}
+{% endblock %}
+
+{%block main_body%}
+<div class="table-responsive listing">
+<h1 class="lead page-header">Notifications for New Research Internships</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>Intern ID</th>
+        <th>Intern Position</th>
+        <th>Professor ID</th>
+        <th>Stipend offered </th>
+        <th>Degree Required</th>
+        <th>Branch Required</th>
+        <th>Application Link</th>
+
+    </tr>
+    {% for item in form %}
+    <tr>
+        <td>{{ item.id}}</td>
+        <td>{{ item.c_position }}</td>
+        <td>{{ item.register_id }}</td>
+        <td>{{ item.c_stipend_offered }}</td>
+        <td>{{ item.c_course }}</td>
+        <td>{{ item.c_branch }}</td>
+        <td> <a href="/Professor/project/{{ item.id }}">Apply</a></td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+{% endblock %}
