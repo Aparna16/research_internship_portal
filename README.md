@@ -16,14 +16,14 @@ Professor Module
 1- Professor Registration Page
 This professor registration requires following details
 
-Professor:
+Professor :
 This contains a short description of professor profile
 
-Additional details:
-This contains a brief description about the professor
+Additional details :
+ This contains a brief description about the professor
 
-PPT:
-This contains a downloadable ppt of the professor's publication details
+PPT :
+ This contains a downloadable ppt of the professor's publication details
 
-Apply/Acceptance:
-This contains the status of the application of the student indicating if the student has been selected for the project or not
+Apply/Acceptance :
+ This contains the status of the application of the student indicating if the student has been selected for the project or not
