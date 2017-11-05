@@ -55,6 +55,11 @@ If there is any offer letter for the candidate it should be displayed.
 
 ## Execution Instructions:
 1- Run the command below  in the terminal
+```
 python manage.py runserver
+```
 
-2- Open the web-browser and type 127.0.0.1:8000/home. 
+2- Open the web-browser and type :
+```
+127.0.0.1:8000/home
+```
