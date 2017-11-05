@@ -5,13 +5,13 @@ Online Research Internship Management for NITK. It contains basically three modu
 2- Professor Module
 3- Student Module
 
-Admin Module
+## Admin Module 
 
 Admin Module should contain following capabilities.
 1- Add new student or professor.
 2- Manage database record.
 
-Professor Module
+## Professor Module 
 
 1- Professor Registration Page
 This professor registration requires following details
@@ -37,7 +37,7 @@ contains the projects' list with  details about what professor want to get speci
 7- Projects
 shows the list of students aplied for a project with an option to rank them
 
-Student Module
+## Student Module 
 
 1- Student Registration Page
 This Student registration requires following details
@@ -53,7 +53,7 @@ Shows the list of Projects applied ordered by the student's  preferences.
 4- Offer letter
 If there is any offer letter for the candidate it should be displayed.
 
-Execution Instructions:
+## Execution Instructions:
 1- Run the command below  in the terminal
 python manage.py runserver
 
