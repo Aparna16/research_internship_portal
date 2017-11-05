@@ -1,4 +1,4 @@
-# research_internship_portal
+# Research_Internship_Portal
 Online Research Internship Management for NITK. It contains basically three modules->
 
 1- Admin Module
