@@ -1,65 +1,31 @@
 # Research_Internship_Portal
-Online Research Internship Management for NITK. It contains basically three modules->
 
-1- Admin Module
-2- Professor Module
-3- Student Module
+Our project aims to simplify the process of research internship management by implementing a portal for indirect communication between professors and students. It encourages students to take up projects according to their interests and tries to match them with professors, ensuring maximum satisfaction for both students and professors through least regret algorithm.
 
-## Admin Module 
+## Basic Functions of Portal
 
-Admin Module should contain following capabilities.
-1- Add new student or professor.
-2- Manage database record.
+- Registers professors and allows them to upload their project details (Professors are encouraged to submit more than one project proposal to maximise chances of a student being assigned to them.)
+- Registers students, allows them to choose projects and upload relative ranking of projects chosen
+- Provides professors a list of students who have chosen their projects
+- Allows professors to rank the students in order of merit and suitability to project
+- Uses least regret algorithm on professors’ ranking of students and students’ ranking of projects to match students with projects
 
-## Professor Module 
+## Objectives (specific to NITK)
 
-1- Professor Registration Page
-This professor registration requires following details
-
-   Professor :
-   This contains a short description of professor profile
-
-2- PPT :
- This contains a downloadable ppt of the professor's publication details
-
-3- Apply/Acceptance :
- This contains the status of the application of the student indicating if the student has been selected for the project or not
-
-4- Stipend:
-This indicates the stipend offered.
-
-5- Contact:
-This field gives contact details of the professor.
-
-6- List of Projects
-contains the projects' list with  details about what professor want to get specially mentioned about the project profile
-
-7- Projects
-shows the list of students aplied for a project with an option to rank them
-
-## Student Module 
-
-1- Student Registration Page
-This Student registration requires following details
-
-Student:
-This contains a short description of student like username,contact details etc.
-
-2- Resume:
-This field has the student's resume uploaded for the professor to view. 
-
-3- Projects Applied
-Shows the list of Projects applied ordered by the student's  preferences. 
-4- Offer letter
-If there is any offer letter for the candidate it should be displayed.
+- Introduces a summer internship program for first/second year B.Tech. students at NITK Surathkal to increase their knowledge in their areas of interest and give them exposure at a very early stage in their careers
+- Makes research internship management easy and efficient by making it online
+- Encourages interaction between students and professors of respective departments
+early on
+- Introduces freshers and sophomores to research culture at NITK
 
 ## Execution Instructions:
-1- Run the command below  in the terminal
+
+- Run the following command in the terminal:
 ```
 python manage.py runserver
 ```
 
-2- Open the web-browser and type :
+- Open the web-browser and type:
 ```
 127.0.0.1:8000/home
 ```
