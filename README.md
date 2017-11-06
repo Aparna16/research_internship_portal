@@ -29,3 +29,4 @@ python manage.py runserver
 ```
 127.0.0.1:8000/home
 ```
+- Further details about the project can be found in Final_Report.pdf
